@@ -1,8 +1,8 @@
 package com.truxapp.sharadsingh.myapplication;
 
 import android.content.Context;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -18,7 +18,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         try {
             JSONObject obj = new JSONObject(loadJSONFromAsset(this));
+
+
             String zd = obj.toString();
+
+
         } catch (JSONException e) {
             e.printStackTrace();
         }
