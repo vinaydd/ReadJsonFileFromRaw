@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         try {
             JSONObject obj = new JSONObject(loadJSONFromAsset(this));
 
-
+//            vinay singh
             String zd = obj.toString();
 
 
